@@ -14,6 +14,9 @@ gem 'sqlite3', group: [:development, :test]
 # postgres for prod DB
 gem 'pg', group: :production
 
+# add twitter BS
+gem 'bootstrap-sass'
+
 # 12 factor for heroku
 gem 'rails_12factor', group: :production
 
